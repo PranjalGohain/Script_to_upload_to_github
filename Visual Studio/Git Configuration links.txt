@@ -1,0 +1,20 @@
+Git Configuration
+
+
+0
+down vote
+I had this too and couldn't find anywhere on StackOverflow with the following useful nugget clearly stated: Git won't let you push to a different branch if your working branch has diverged from it. There's an easy fix - just switch to the branch you want to push to and merge your working branch into it. So instead of trying this:
+
+git push origin master   <========== On "mybranch"
+Do this:
+
+git checkout master      <========== Switch to the branch you want to push to
+git pull origin master   <========== Get latest from remote repository
+git pull origin mybranch <========== Merge in changes from "mybranch"
+======== Resolve any issues ========
+git push origin master   <========== Push the merged changes
+
+
+
+https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+

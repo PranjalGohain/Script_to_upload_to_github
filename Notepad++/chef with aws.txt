@@ -1,0 +1,636 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.02.15 21:18:03 =~=~=~=~=~=~=~=~=~=~=~=
+login as: user
+user@54.179.145.234's password: 
+Last login: Tue Feb 14 13:35:41 2017 from 15.219.195.126
+
+Welcome to my Server[?1034h[user@bhargav4562 ~]$ su -
+Password: 
+[user@bhargav4562 ~]$ 
+[user@bhargav4562 ~]$ 
+[user@bhargav4562 ~]$ [H[2J[user@bhargav4562 ~]$ cd chef-repo/
+[user@bhargav4562 chef-repo]$ knife ssl check
+Connecting to host bhargav4563.mylabserver.com:443
+Successfully verified certificates from `bhargav4563.mylabserver.com'
+[user@bhargav4562 chef-repo]$ 
+[K[user@bhargav4562 chef-repo]$ 
+[user@bhargav4562 chef-repo]$ ruby -v
+ruby 2.0.0p648 (2015-12-16) [x86_64-linux]
+[user@bhargav4562 chef-repo]$ gem install knife-ec2
+Fetching: builder-3.2.3.gem
+Fetching: builder-3.2.3.gem (  6%)
+Fetching: builder-3.2.3.gem ( 15%)
+Fetching: builder-3.2.3.gem ( 24%)
+Fetching: builder-3.2.3.gem ( 32%)
+Fetching: builder-3.2.3.gem ( 41%)
+Fetching: builder-3.2.3.gem ( 49%)
+Fetching: builder-3.2.3.gem ( 58%)
+Fetching: builder-3.2.3.gem ( 67%)
+Fetching: builder-3.2.3.gem ( 75%)
+Fetching: builder-3.2.3.gem ( 84%)
+Fetching: builder-3.2.3.gem ( 93%)
+Fetching: builder-3.2.3.gem (100%)
+Fetching: builder-3.2.3.gem (100%)
+Successfully installed builder-3.2.3
+Fetching: excon-0.55.0.gem
+Fetching: excon-0.55.0.gem (  7%)
+Fetching: excon-0.55.0.gem ( 14%)
+Fetching: excon-0.55.0.gem ( 21%)
+Fetching: excon-0.55.0.gem ( 28%)
+Fetching: excon-0.55.0.gem ( 34%)
+Fetching: excon-0.55.0.gem ( 41%)
+Fetching: excon-0.55.0.gem ( 48%)
+Fetching: excon-0.55.0.gem ( 55%)
+Fetching: excon-0.55.0.gem ( 62%)
+Fetching: excon-0.55.0.gem ( 69%)
+Fetching: excon-0.55.0.gem ( 76%)
+Fetching: excon-0.55.0.gem ( 83%)
+Fetching: excon-0.55.0.gem ( 89%)
+Fetching: excon-0.55.0.gem ( 96%)
+Fetching: excon-0.55.0.gem (100%)
+Fetching: excon-0.55.0.gem (100%)
+Successfully installed excon-0.55.0
+Fetching: formatador-0.2.5.gem
+Fetching: formatador-0.2.5.gem (100%)
+Fetching: formatador-0.2.5.gem (100%)
+Successfully installed formatador-0.2.5
+Fetching: fog-core-1.43.0.gem
+Fetching: fog-core-1.43.0.gem ( 35%)
+Fetching: fog-core-1.43.0.gem ( 69%)
+Fetching: fog-core-1.43.0.gem (100%)
+Fetching: fog-core-1.43.0.gem (100%)
+Successfully installed fog-core-1.43.0
+Fetching: multi_json-1.12.1.gem
+Fetching: multi_json-1.12.1.gem ( 60%)
+Fetching: multi_json-1.12.1.gem (100%)
+Fetching: multi_json-1.12.1.gem (100%)
+Successfully installed multi_json-1.12.1
+Fetching: fog-json-1.0.2.gem
+Fetching: fog-json-1.0.2.gem (100%)
+Fetching: fog-json-1.0.2.gem (100%)
+Successfully installed fog-json-1.0.2
+Fetching: mini_portile2-2.1.0.gem
+Fetching: mini_portile2-2.1.0.gem ( 87%)
+Fetching: mini_portile2-2.1.0.gem (100%)
+Fetching: mini_portile2-2.1.0.gem (100%)
+Successfully installed mini_portile2-2.1.0
+Fetching: nokogiri-1.7.0.1.gem
+Fetching: nokogiri-1.7.0.1.gem (  1%)
+Fetching: nokogiri-1.7.0.1.gem (  2%)
+Fetching: nokogiri-1.7.0.1.gem (  3%)
+Fetching: nokogiri-1.7.0.1.gem (  4%)
+Fetching: nokogiri-1.7.0.1.gem (  5%)
+Fetching: nokogiri-1.7.0.1.gem (  6%)
+Fetching: nokogiri-1.7.0.1.gem (  7%)
+Fetching: nokogiri-1.7.0.1.gem (  8%)
+Fetching: nokogiri-1.7.0.1.gem (  9%)
+Fetching: nokogiri-1.7.0.1.gem ( 10%)
+Fetching: nokogiri-1.7.0.1.gem ( 11%)
+Fetching: nokogiri-1.7.0.1.gem ( 12%)
+Fetching: nokogiri-1.7.0.1.gem ( 13%)
+Fetching: nokogiri-1.7.0.1.gem ( 14%)
+Fetching: nokogiri-1.7.0.1.gem ( 15%)
+Fetching: nokogiri-1.7.0.1.gem ( 16%)
+Fetching: nokogiri-1.7.0.1.gem ( 17%)
+Fetching: nokogiri-1.7.0.1.gem ( 18%)
+Fetching: nokogiri-1.7.0.1.gem ( 19%)
+Fetching: nokogiri-1.7.0.1.gem ( 20%)
+Fetching: nokogiri-1.7.0.1.gem ( 21%)
+Fetching: nokogiri-1.7.0.1.gem ( 22%)
+Fetching: nokogiri-1.7.0.1.gem ( 23%)
+Fetching: nokogiri-1.7.0.1.gem ( 24%)
+Fetching: nokogiri-1.7.0.1.gem ( 25%)
+Fetching: nokogiri-1.7.0.1.gem ( 26%)
+Fetching: nokogiri-1.7.0.1.gem ( 27%)
+Fetching: nokogiri-1.7.0.1.gem ( 28%)
+Fetching: nokogiri-1.7.0.1.gem ( 29%)
+Fetching: nokogiri-1.7.0.1.gem ( 30%)
+Fetching: nokogiri-1.7.0.1.gem ( 31%)
+Fetching: nokogiri-1.7.0.1.gem ( 32%)
+Fetching: nokogiri-1.7.0.1.gem ( 33%)
+Fetching: nokogiri-1.7.0.1.gem ( 34%)
+Fetching: nokogiri-1.7.0.1.gem ( 35%)
+Fetching: nokogiri-1.7.0.1.gem ( 36%)
+Fetching: nokogiri-1.7.0.1.gem ( 37%)
+Fetching: nokogiri-1.7.0.1.gem ( 38%)
+Fetching: nokogiri-1.7.0.1.gem ( 39%)
+Fetching: nokogiri-1.7.0.1.gem ( 40%)
+Fetching: nokogiri-1.7.0.1.gem ( 41%)
+Fetching: nokogiri-1.7.0.1.gem ( 42%)
+Fetching: nokogiri-1.7.0.1.gem ( 43%)
+Fetching: nokogiri-1.7.0.1.gem ( 44%)
+Fetching: nokogiri-1.7.0.1.gem ( 45%)
+Fetching: nokogiri-1.7.0.1.gem ( 46%)
+Fetching: nokogiri-1.7.0.1.gem ( 47%)
+Fetching: nokogiri-1.7.0.1.gem ( 48%)
+Fetching: nokogiri-1.7.0.1.gem ( 49%)
+Fetching: nokogiri-1.7.0.1.gem ( 50%)
+Fetching: nokogiri-1.7.0.1.gem ( 51%)
+Fetching: nokogiri-1.7.0.1.gem ( 52%)
+Fetching: nokogiri-1.7.0.1.gem ( 53%)
+Fetching: nokogiri-1.7.0.1.gem ( 54%)
+Fetching: nokogiri-1.7.0.1.gem ( 55%)
+Fetching: nokogiri-1.7.0.1.gem ( 56%)
+Fetching: nokogiri-1.7.0.1.gem ( 57%)
+Fetching: nokogiri-1.7.0.1.gem ( 58%)
+Fetching: nokogiri-1.7.0.1.gem ( 59%)
+Fetching: nokogiri-1.7.0.1.gem ( 60%)
+Fetching: nokogiri-1.7.0.1.gem ( 61%)
+Fetching: nokogiri-1.7.0.1.gem ( 62%)
+Fetching: nokogiri-1.7.0.1.gem ( 63%)
+Fetching: nokogiri-1.7.0.1.gem ( 64%)
+Fetching: nokogiri-1.7.0.1.gem ( 65%)
+Fetching: nokogiri-1.7.0.1.gem ( 66%)
+Fetching: nokogiri-1.7.0.1.gem ( 67%)
+Fetching: nokogiri-1.7.0.1.gem ( 68%)
+Fetching: nokogiri-1.7.0.1.gem ( 69%)
+Fetching: nokogiri-1.7.0.1.gem ( 70%)
+Fetching: nokogiri-1.7.0.1.gem ( 71%)
+Fetching: nokogiri-1.7.0.1.gem ( 72%)
+Fetching: nokogiri-1.7.0.1.gem ( 73%)
+Fetching: nokogiri-1.7.0.1.gem ( 74%)
+Fetching: nokogiri-1.7.0.1.gem ( 75%)
+Fetching: nokogiri-1.7.0.1.gem ( 76%)
+Fetching: nokogiri-1.7.0.1.gem ( 77%)
+Fetching: nokogiri-1.7.0.1.gem ( 78%)
+Fetching: nokogiri-1.7.0.1.gem ( 79%)
+Fetching: nokogiri-1.7.0.1.gem ( 80%)
+Fetching: nokogiri-1.7.0.1.gem ( 81%)
+Fetching: nokogiri-1.7.0.1.gem ( 82%)
+Fetching: nokogiri-1.7.0.1.gem ( 83%)
+Fetching: nokogiri-1.7.0.1.gem ( 84%)
+Fetching: nokogiri-1.7.0.1.gem ( 85%)
+Fetching: nokogiri-1.7.0.1.gem ( 86%)
+Fetching: nokogiri-1.7.0.1.gem ( 87%)
+Fetching: nokogiri-1.7.0.1.gem ( 88%)
+Fetching: nokogiri-1.7.0.1.gem ( 89%)
+Fetching: nokogiri-1.7.0.1.gem ( 90%)
+Fetching: nokogiri-1.7.0.1.gem ( 91%)
+Fetching: nokogiri-1.7.0.1.gem ( 92%)
+Fetching: nokogiri-1.7.0.1.gem ( 93%)
+Fetching: nokogiri-1.7.0.1.gem ( 94%)
+Fetching: nokogiri-1.7.0.1.gem ( 95%)
+Fetching: nokogiri-1.7.0.1.gem ( 96%)
+Fetching: nokogiri-1.7.0.1.gem ( 97%)
+Fetching: nokogiri-1.7.0.1.gem ( 98%)
+Fetching: nokogiri-1.7.0.1.gem ( 99%)
+Fetching: nokogiri-1.7.0.1.gem (100%)
+Fetching: nokogiri-1.7.0.1.gem (100%)
+ERROR:  Error installing knife-ec2:
+	nokogiri requires Ruby version >= 2.1.0.
+[user@bhargav4562 chef-repo]$ gem install knife-ec2[14Pruby -v
+ruby 2.0.0p648 (2015-12-16) [x86_64-linux]
+[user@bhargav4562 chef-repo]$ bundle install --deployment
+-bash: bundle: command not found
+[user@bhargav4562 chef-repo]$ /opt/chef/embedded/bin/gem install knife-ec2
+-bash: /opt/chef/embedded/bin/gem: No such file or directory
+[user@bhargav4562 chef-repo]$ /opt/chefdk/embedded/bin/g
+gem    guard  
+[user@bhargav4562 chef-repo]$ /opt/chefdk/embedded/bin/g
+gem    guard  
+[user@bhargav4562 chef-repo]$ /opt/chefdk/embedded/bin/gem install knife-ec2
+Fetching: fog-aws-0.13.0.gem
+Fetching: fog-aws-0.13.0.gem (  1%)
+Fetching: fog-aws-0.13.0.gem (  2%)
+Fetching: fog-aws-0.13.0.gem (  3%)
+Fetching: fog-aws-0.13.0.gem (  4%)
+Fetching: fog-aws-0.13.0.gem (  5%)
+Fetching: fog-aws-0.13.0.gem (  6%)
+Fetching: fog-aws-0.13.0.gem (  7%)
+Fetching: fog-aws-0.13.0.gem ( 10%)
+Fetching: fog-aws-0.13.0.gem ( 13%)
+Fetching: fog-aws-0.13.0.gem ( 16%)
+Fetching: fog-aws-0.13.0.gem ( 19%)
+Fetching: fog-aws-0.13.0.gem ( 22%)
+Fetching: fog-aws-0.13.0.gem ( 25%)
+Fetching: fog-aws-0.13.0.gem ( 29%)
+Fetching: fog-aws-0.13.0.gem ( 32%)
+Fetching: fog-aws-0.13.0.gem ( 35%)
+Fetching: fog-aws-0.13.0.gem ( 38%)
+Fetching: fog-aws-0.13.0.gem ( 41%)
+Fetching: fog-aws-0.13.0.gem ( 44%)
+Fetching: fog-aws-0.13.0.gem ( 47%)
+Fetching: fog-aws-0.13.0.gem ( 51%)
+Fetching: fog-aws-0.13.0.gem ( 54%)
+Fetching: fog-aws-0.13.0.gem ( 57%)
+Fetching: fog-aws-0.13.0.gem ( 60%)
+Fetching: fog-aws-0.13.0.gem ( 63%)
+Fetching: fog-aws-0.13.0.gem ( 66%)
+Fetching: fog-aws-0.13.0.gem ( 69%)
+Fetching: fog-aws-0.13.0.gem ( 73%)
+Fetching: fog-aws-0.13.0.gem ( 76%)
+Fetching: fog-aws-0.13.0.gem ( 79%)
+Fetching: fog-aws-0.13.0.gem ( 82%)
+Fetching: fog-aws-0.13.0.gem ( 85%)
+Fetching: fog-aws-0.13.0.gem ( 88%)
+Fetching: fog-aws-0.13.0.gem ( 91%)
+Fetching: fog-aws-0.13.0.gem ( 95%)
+Fetching: fog-aws-0.13.0.gem ( 98%)
+Fetching: fog-aws-0.13.0.gem (100%)
+Fetching: fog-aws-0.13.0.gem (100%)
+WARNING:  You don't have /home/user/.chefdk/gem/ruby/2.3.0/bin in your PATH,
+	  gem executables will not run.
+Successfully installed fog-aws-0.13.0
+Fetching: knife-ec2-0.14.0.gem
+Fetching: knife-ec2-0.14.0.gem (  1%)
+Fetching: knife-ec2-0.14.0.gem (  8%)
+Fetching: knife-ec2-0.14.0.gem ( 13%)
+Fetching: knife-ec2-0.14.0.gem ( 16%)
+Fetching: knife-ec2-0.14.0.gem ( 21%)
+Fetching: knife-ec2-0.14.0.gem ( 23%)
+Fetching: knife-ec2-0.14.0.gem ( 29%)
+Fetching: knife-ec2-0.14.0.gem ( 31%)
+Fetching: knife-ec2-0.14.0.gem ( 36%)
+Fetching: knife-ec2-0.14.0.gem ( 39%)
+Fetching: knife-ec2-0.14.0.gem ( 44%)
+Fetching: knife-ec2-0.14.0.gem ( 46%)
+Fetching: knife-ec2-0.14.0.gem ( 51%)
+Fetching: knife-ec2-0.14.0.gem ( 54%)
+Fetching: knife-ec2-0.14.0.gem ( 59%)
+Fetching: knife-ec2-0.14.0.gem ( 62%)
+Fetching: knife-ec2-0.14.0.gem ( 67%)
+Fetching: knife-ec2-0.14.0.gem ( 72%)
+Fetching: knife-ec2-0.14.0.gem ( 77%)
+Fetching: knife-ec2-0.14.0.gem ( 82%)
+Fetching: knife-ec2-0.14.0.gem ( 84%)
+Fetching: knife-ec2-0.14.0.gem ( 89%)
+Fetching: knife-ec2-0.14.0.gem ( 95%)
+Fetching: knife-ec2-0.14.0.gem (100%)
+Fetching: knife-ec2-0.14.0.gem (100%)
+Successfully installed knife-ec2-0.14.0
+2 gems installed
+[user@bhargav4562 chef-repo]$ /opt/chefdk/embedded/bin/gem install knife-ec2
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kknife-ec2 help
+-bash: knife-ec2: command not found
+[user@bhargav4562 chef-repo]$ knife ec2 help
+FATAL: Cannot find subcommand for: 'ec2 help'
+Available ec2 subcommands: (for details, knife SUB-COMMAND --help)
+
+** EC2 COMMANDS **
+knife ec2 amis ubuntu DISTRO [TYPE] (options)
+knife ec2 flavor list (options)
+knife ec2 server create (options)
+knife ec2 server delete SERVER [SERVER] (options)
+knife ec2 server list (options)
+
+[user@bhargav4562 chef-repo]$ [H[2J[user@bhargav4562 chef-repo]$ 
+[user@bhargav4562 chef-repo]$ 
+[user@bhargav4562 chef-repo]$ l[Kcd $HOME
+[user@bhargav4562 ~]$ w[Kpwd
+/home/user
+[user@bhargav4562 ~]$ ls
+[0m[01;31mchefdk-1.2.22-1.el7.x86_64.rpm[0m  [01;34mchef-repo[0m  [01;34mDesktop[0m  [01;34mnodes[0m  VNCHOWTO  xrdp-chansrv.log
+[user@bhargav4562 ~]$ ls -al
+total 109032
+drwx------. 14 user user      4096 Feb 15 15:54 [0m[01;34m.[0m
+drwxr-xr-x.  3 root root        17 Nov  5 15:38 [01;34m..[0m
+-rw-------.  1 user user      7090 Feb 15 15:57 .bash_history
+-rw-r--r--.  1 user user        18 Feb  2 04:08 .bash_logout
+-rw-r--r--.  1 user user       193 Feb  2 04:08 .bash_profile
+-rw-r--r--.  1 user user       257 Feb 10 12:00 .bashrc
+drwx------.  8 user user      4096 Feb  8 17:34 [01;34m.cache[0m
+drwxrwxr-x.  3 user user        16 Feb 15 15:54 [01;34m.chefdk[0m
+-rw-rw-r--.  1 user user 111556831 Feb  2 19:26 [01;31mchefdk-1.2.22-1.el7.x86_64.rpm[0m
+drwxrwxr-x.  7 user user      4096 Feb 14 14:22 [01;34mchef-repo[0m
+drwxr-xr-x. 11 user user      4096 Aug  6  2015 [01;34m.config[0m
+drwxr-xr-x.  2 user user         6 Jan  7  2015 [01;34mDesktop[0m
+-rw-------.  1 user user        16 Feb  2 04:08 .esd_auth
+drwxrwxr-x.  4 user user        29 Feb 15 15:51 [01;34m.gem[0m
+-rw-rw-r--.  1 user user        49 Feb  8 19:28 .gitconfig
+-rw-------.  1 user user     10214 Feb 15 15:47 .ICEauthority
+drwxr-xr-x.  3 user user        18 Jan  7  2015 [01;34m.local[0m
+drwx------.  2 root root        45 Feb  8 14:26 [01;34mnodes[0m
+drwxrwxr-x.  3 user user        14 Jan 12  2015 [01;34m.openoffice[0m
+drwxrw----.  3 user user        18 Mar 18  2016 [01;34m.pki[0m
+drwx------.  2 user user        24 Feb 10 12:14 [01;34m.ssh[0m
+-rw-------.  1 user user      5569 Feb 10 12:48 .viminfo
+drwxrwxr-x.  2 user user      4096 Feb 15 15:47 [01;34m.vnc[0m
+-rw-rw-r--.  1 user user       431 Aug  6  2015 VNCHOWTO
+-rw-------.  1 user user      4951 Feb 15 15:47 .Xauthority
+-rw-------.  1 user user        68 Mar 18  2016 xrdp-chansrv.log
+-rw-------.  1 user user        49 Feb  2 04:08 .xsession-errors
+[user@bhargav4562 ~]$ cd s[K.ssh/
+[user@bhargav4562 .ssh]$ ls
+known_hosts
+[user@bhargav4562 .ssh]$ vim knife.pem
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;50r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[50;1H"knife.pem" [New File][>c[2;1H[1m[34m~                                                                                                                                                                                            [3;1H~                                                                                                                                                                                            [4;1H~                                                                                                                                                                                            [5;1H~                                                                                                                                                                                            [6;1H~                                                                                                                                                                                            [7;1H~                                                                                                                                                                                            [8;1H~                                                                                                                                                                                            [9;1H~                                                                                                                                                                                            [10;1H~                                                                                                                                                                                            [11;1H~                                                                                                                                                                                            [12;1H~                                                                                                                                                                                            [13;1H~                                                                                                                                                                                            [14;1H~                                                                                                                                                                                            [15;1H~                                                                                                                                                                                            [16;1H~                                                                                                                                                                                            [17;1H~                                                                                                                                                                                            [18;1H~                                                                                                                                                                                            [19;1H~                                                                                                                                                                                            [20;1H~                                                                                                                                                                                            [21;1H~                                                                                                                                                                                            [22;1H~                                                                                                                                                                                            [23;1H~                                                                                                                                                                                            [24;1H~                                                                                                                                                                                            [25;1H~                                                                                                                                                                                            [26;1H~                                                                                                                                                                                            [27;1H~                                                                                                                                                                                            [28;1H~                                                                                                                                                                                            [29;1H~                                                                                                                                                                                            [30;1H~                                                                                                                                                                                            [31;1H~                                                                                                                                                                                            [32;1H~                                                                                                                                                                                            [33;1H~                                                                                                                                                                                            [34;1H~                                                                                                                                                                                            [35;1H~                                                                                                                                                                                            [36;1H~                                                                                                                                                                                            [37;1H~                                                                                                                                                                                            [38;1H~                                                                                                                                                                                            [39;1H~                                                                                                                                                                                            [40;1H~                                                                                                                                                                                            [41;1H~                                                                                                                                                                                            [42;1H~                                                                                                                                                                                            [43;1H~                                                                                                                                                                                            [44;1H~                                                                                                                                                                                            [45;1H~                                                                                                                                                                                            [46;1H~                                                                                                                                                                                            [47;1H~                                                                                                                                                                                            [48;1H~                                                                                                                                                                                            [49;1H~                                                                                                                                                                                            [m[50;172H0,0-1[9CAll[1;1H[?12l[?25h[?25l[50;1H[1m-- INSERT --[m[50;13H[K[50;172H0,1[11CAll[1;1H[?12l[?25h[?25l-----BEGIN RSA PRIVATE KEY-----[2;1H[K[50;172H2[2;1H[?12l[?25h[?25lMIIEpQIBAAKCAQEAg8lj533ackv6XWCezUx1qpx2kvtW3frt+jcXwfLhBnvErfkjs58UP1tlMc9g
+gkoqYllWus3f3ZqolvfX4EYKqCpwSvXgYlzjY17Y16NDEQWbIJmdrvwXP+vGmSzdDa7jV2py+1Yh[3;77H[K[4;1HapK4rHqZQNJtGOXkTHGHnbfChbRDHBVQ1ndWUa+AZxF9OIyCLE+Z8s+siE9LQ4H2F/0iEauMPJ+J[4;77H[K[5;1H0i0Ki+35gNaKF7nkvqwHhGSfPIrKpVk6jX/CR7MXcjb2Qf68Dar/+fXg1PazKE42uVwbGYzzMI1M[5;77H[K[6;1HAD0om0K6XGYptxDjnBFwfL7s8UeDHhFa9xwBL3kTjxjSWtubZfJoTwIDAQABAoIBAF3tCiQyIZ/2[6;77H[K[7;1HoMEunN/rT63CiAwn0HizYCtGWstjhJfvXHU2LQjXJ0IkrJH8oGcb3utrixHmq1gw41l92UFCClRi[7;77H[K[8;1HstfqN/tDAtmO/vNpq+IU4cQxWB4gE53+N/Rx8jbPX76s4rhZYcWoPrDHTDTUBOeK6dTF0YdKMfzD[8;77H[K[9;1HRlVcp9nB89KRMjjtHl1YhWeokgXSaKdsd4Mf8iVoavGke0biNU4OK07B8OhMKDvnBsvFRFXFPlG1[9;77H[K[10;1HnFpRugh3pU5+0t21JmJ8Ii28pBj5u3ar1TQgZ8P7VFSg6lfgzWU9Si7F40Ff9vbsH1Du41ejmpih[10;77H[K[11;1H+DPOKpVeERWQYG7OEhZS6UKUldECgYEA7NfgAjt+6nqMJpQbWzy2tgqLPap44aIVOOfgdy9iXRe+[11;77H[K[12;1HZPoRqPxZqVppVTVORHNoKzXqZqJof+PWTjWW4u+M8PnzlUFIeRu/QSglrwzxeV7olhqeUAN77jU6[12;77H[K[13;1HhIOTKL4xyVYAYn3dn/bsz/f/NYUaiqrh8RdK8uYUYJ/9RivAPicCgYEAjnIxMv7kRH8fGFx91McC[13;77H[K[14;1HO0q9TRr7OoW7L54sraIyiRrO+ARYskKBOggMdWk3Q8EE2WdHoTRQ4DoILD6tycDreJ1cBCqRIs7m[14;77H[K[15;1Hr0gxowE6DBI0HdfPLZfkZp9MMhqL32H/V8wD5FGxXxGH2QtMzb/dSaeokZAFAtVBUcfRyi8FhZkC[15;77H[K[16;1HgYEAhrCFrf9Tv9kNVusnW419gq0gXmNR908Lrp7/YghKchKMrjQgUu+ftdW6zUBRUFApT1mMAe4e[16;77H[K[17;1Ha4yQVU3YjxoYFvqucZT8uBL1gwJn29MKiDFXJ/XfTjWNBvyyWKXSzHrNKWiFM33MyanNJsAsHK2j[17;77H[K[18;1HWHSxpT/P2a7Kq+CQUpWS8EUCgYEAg1kasspElECf3KfUw7IqBaBaQ9IgXItZ2oPA8O7CKJiWxi3D[18;77H[K[19;1H18PpQyiOzGkTs581KH7KlwQVm10HkjzNpV8GAfcgFRtnLzCXmIM6efM0olLaybXo7ULFMjerW/wM[19;77H[K[20;1HhBPqDvwpjowhwOb6XBHGZWaI11UI5AhoBn+8NnvJn+SR8+kCgYEAv+fVf3Ahu1Sx9oB1zG7mMRDy[20;77H[K[21;1HVUuMqjMLGqMqv52TLJHhwYm8jpsRXMSIJOtKuSuTE7gl7gA7+x8pDldJLu/AkvykcCYKlyZ+edzb[21;77H[K[22;1H1S1i1iInC8yifZomziLEbDlySzui6b6ipgTeSmexZ7Rx+T5f4mkERtinyUW7txcSYOK3G+g=[22;73H[K[23;1H-----END RSA PRIVATE KEY-----[23;30H[K[50;173H3,30[23;30H[?12l[?25h[50;1H[K[23;29H[?25l[50;172H23,29[9CAll[23;29H[?12l[?25h[?25l[50;172H[K[50;1H:[?12l[?25hW[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h
+[?25l[1m[37m[41mE492: Not an editor command: Wq![m[139C23,29[9CAll[23;29H[?12l[?25h[?25l[50;1H[K[50;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h
+[?25l"knife.pem" [New] 23L, 1675C written
+
+
+[?1l>[?12l[?25h[?1049l[user@bhargav4562 .ssh]$ ll
+total 8
+-rw-rw-r--. 1 user user 1675 Feb 15 15:58 knife.pem
+-rw-r--r--. 1 user user 1048 Feb 10 12:42 known_hosts
+[user@bhargav4562 .ssh]$ 
+[user@bhargav4562 .ssh]$ 
+[user@bhargav4562 .ssh]$ ls
+knife.pem  known_hosts
+[user@bhargav4562 .ssh]$ pwd
+/home/user/.ssh
+[user@bhargav4562 .ssh]$ ls
+knife.pem  known_hosts
+[user@bhargav4562 .ssh]$ vim config
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;50r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[50;1H"config" [New File][>c[2;1H[1m[34m~                                                                                                                                                                                            [3;1H~                                                                                                                                                                                            [4;1H~                                                                                                                                                                                            [5;1H~                                                                                                                                                                                            [6;1H~                                                                                                                                                                                            [7;1H~                                                                                                                                                                                            [8;1H~                                                                                                                                                                                            [9;1H~                                                                                                                                                                                            [10;1H~                                                                                                                                                                                            [11;1H~                                                                                                                                                                                            [12;1H~                                                                                                                                                                                            [13;1H~                                                                                                                                                                                            [14;1H~                                                                                                                                                                                            [15;1H~                                                                                                                                                                                            [16;1H~                                                                                                                                                                                            [17;1H~                                                                                                                                                                                            [18;1H~                                                                                                                                                                                            [19;1H~                                                                                                                                                                                            [20;1H~                                                                                                                                                                                            [21;1H~                                                                                                                                                                                            [22;1H~                                                                                                                                                                                            [23;1H~                                                                                                                                                                                            [24;1H~                                                                                                                                                                                            [25;1H~                                                                                                                                                                                            [26;1H~                                                                                                                                                                                            [27;1H~                                                                                                                                                                                            [28;1H~                                                                                                                                                                                            [29;1H~                                                                                                                                                                                            [30;1H~                                                                                                                                                                                            [31;1H~                                                                                                                                                                                            [32;1H~                                                                                                                                                                                            [33;1H~                                                                                                                                                                                            [34;1H~                                                                                                                                                                                            [35;1H~                                                                                                                                                                                            [36;1H~                                                                                                                                                                                            [37;1H~                                                                                                                                                                                            [38;1H~                                                                                                                                                                                            [39;1H~                                                                                                                                                                                            [40;1H~                                                                                                                                                                                            [41;1H~                                                                                                                                                                                            [42;1H~                                                                                                                                                                                            [43;1H~                                                                                                                                                                                            [44;1H~                                                                                                                                                                                            [45;1H~                                                                                                                                                                                            [46;1H~                                                                                                                                                                                            [47;1H~                                                                                                                                                                                            [48;1H~                                                                                                                                                                                            [49;1H~                                                                                                                                                                                            [m[50;172H0,0-1[9CAll[1;1H[?12l[?25h[?25l[50;1H[1m-- INSERT --[m[50;13H[K[50;172H0,1[11CAll[1;1H[?12l[?25h[?25l[32mHost[m [31mec2*compute-1.amazonaws.com[m
+  [33mStrictHostKeyChecking[m [36mno[m[2;27H[K[3;1H  [33mUser[m ubuntu[3;14H[K[4;1H  [33mIdentityFile[m  /Users/mm/.ssh/[31mknife.pem[m[4;41H[K[50;172H4,41[4;41H[?12l[?25h[?25l[50;175H0[4;40H[?12l[?25h[?25l[50;175H1[4;41H[?12l[?25h[?25l[50;175H0[4;40H[?12l[?25h[?25l[50;174H39[4;39H[?12l[?25h[?25l[50;175H8[4;38H[?12l[?25h[?25l[50;175H7[4;37H[?12l[?25h[?25l[50;175H6[4;36H[?12l[?25h[?25l[50;175H5[4;35H[?12l[?25h[?25l[50;175H4[4;34H[?12l[?25h[?25l[50;175H3[4;33H[?12l[?25h[?25l[50;175H2[4;32H[?12l[?25h[?25l[50;175H1[4;31H[?12l[?25h[?25l[50;175H0[4;30H[?12l[?25h[?25l[50;174H29[4;29H[?12l[?25h[?25l[50;175H8[4;28H[?12l[?25h[?25l[50;175H7[4;27H[?12l[?25h[?25l[50;175H6[4;26H[?12l[?25h[?25l[50;175H7[4;27H[?12l[?25h[?25l[31mmm.ssh[m/[31mknife.pem[m[4;40H[K[50;175H6[4;26H[?12l[?25h[?25l[31m.ssh[m/[31mknife.pem[m[4;39H[K[50;175H5[4;25H[?12l[?25h[?25l.ssh/[31mknife.pem[m[4;38H[K[50;175H4[4;24H[?12l[?25h[?25l[31mUsers.ssh[m/[31mknife.pem[m[4;37H[K[50;175H3[4;23H[?12l[?25h[?25l[33mUser[m.ssh/[31mknife.pem[m[4;36H[K[50;175H2[4;22H[?12l[?25h[?25l[31mUse.ssh[m/[31mknife.pem[m[4;35H[K[50;175H1[4;21H[?12l[?25h[?25l[31m.ssh[m/[31mknife.pem[m[4;34H[K[50;175H0[4;20H[?12l[?25h[?25l[31m.ssh[m/[31mknife.pem[m[4;33H[K[50;174H19[4;19H[?12l[?25h[?25l.ssh/[31mknife.pem[m[4;32H[K[50;175H8[4;18H[?12l[?25h[?25l.ssh/[31mknife.pem[m[4;31H[K[50;175H7[4;17H[?12l[?25h[?25l.ssh/[31mknife.pem[m[4;30H[K[50;175H6[4;16H[?12l[?25h[50;1H[K[4;15H[?25l[50;172H4,15[10CAll[4;15H[?12l[?25h[?25l[50;172H[K[50;1H:[?12l[?25hW[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h
+[?25l[1m[37m[41mE492: Not an editor command: Wq![m[139C4,15[10CAll[4;15H[?12l[?25h[?25l[50;1H[K[50;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h
+[?25l"config" [New] 4L, 104C written
+
+
+[?1l>[?12l[?25h[?1049l[user@bhargav4562 .ssh]$ pwd
+/home/user/.ssh
+[user@bhargav4562 .ssh]$ pwdvim config
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;50r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[50;1H"config" 4L, 104C[>c[1;1H[32mHost[m [31mec2*compute-1.amazonaws.com[m
+  [33mStrictHostKeyChecking[m [36mno[m
+  [33mUser[m ubuntu
+  [33mIdentityFile[m .ssh/[31mknife.pem[m
+[1m[34m~                                                                                                                                                                                            [6;1H~                                                                                                                                                                                            [7;1H~                                                                                                                                                                                            [8;1H~                                                                                                                                                                                            [9;1H~                                                                                                                                                                                            [10;1H~                                                                                                                                                                                            [11;1H~                                                                                                                                                                                            [12;1H~                                                                                                                                                                                            [13;1H~                                                                                                                                                                                            [14;1H~                                                                                                                                                                                            [15;1H~                                                                                                                                                                                            [16;1H~                                                                                                                                                                                            [17;1H~                                                                                                                                                                                            [18;1H~                                                                                                                                                                                            [19;1H~                                                                                                                                                                                            [20;1H~                                                                                                                                                                                            [21;1H~                                                                                                                                                                                            [22;1H~                                                                                                                                                                                            [23;1H~                                                                                                                                                                                            [24;1H~                                                                                                                                                                                            [25;1H~                                                                                                                                                                                            [26;1H~                                                                                                                                                                                            [27;1H~                                                                                                                                                                                            [28;1H~                                                                                                                                                                                            [29;1H~                                                                                                                                                                                            [30;1H~                                                                                                                                                                                            [31;1H~                                                                                                                                                                                            [32;1H~                                                                                                                                                                                            [33;1H~                                                                                                                                                                                            [34;1H~                                                                                                                                                                                            [35;1H~                                                                                                                                                                                            [36;1H~                                                                                                                                                                                            [37;1H~                                                                                                                                                                                            [38;1H~                                                                                                                                                                                            [39;1H~                                                                                                                                                                                            [40;1H~                                                                                                                                                                                            [41;1H~                                                                                                                                                                                            [42;1H~                                                                                                                                                                                            [43;1H~                                                                                                                                                                                            [44;1H~                                                                                                                                                                                            [45;1H~                                                                                                                                                                                            [46;1H~                                                                                                                                                                                            [47;1H~                                                                                                                                                                                            [48;1H~                                                                                                                                                                                            [49;1H~                                                                                                                                                                                            [m[50;172H4,3[11CAll[4;3H[?12l[?25h[?25l[50;172H3[3;3H[?12l[?25h[?25l[50;174H4[3;4H[?12l[?25h[?25l[50;172H4[4;4H[?12l[?25h[?25l[50;1H[1m-- INSERT --[m[50;14H[K[50;172H4,4[11CAll[4;4H[?12l[?25h[?25l[50;174H30[4;30H[?12l[?25h[?25l[4;29H[K[50;174H29[4;29H[?12l[?25h[?25l[4;21Hknife.p[4;28H[K[50;175H8[4;28H[?12l[?25h[?25l[4;27H[K[50;175H7[4;27H[?12l[?25h[?25l[4;26H[K[50;175H6[4;26H[?12l[?25h[?25l[4;25H[K[50;175H5[4;25H[?12l[?25h[?25l[4;24H[K[50;175H4[4;24H[?12l[?25h[?25l[4;23H[K[50;175H3[4;23H[?12l[?25h[?25l[4;22H[K[50;175H2[4;22H[?12l[?25h[?25l[4;21H[K[50;175H1[4;21H[?12l[?25h[?25l[4;20H[K[50;175H0[4;20H[?12l[?25h[?25l[4;19H[K[50;174H19[4;19H[?12l[?25h[?25l[4;18H[K[50;175H8[4;18H[?12l[?25h[?25l[4;17H[K[50;175H7[4;17H[?12l[?25h[?25l[4;16H[K[50;175H6[4;16H[?12l[?25h[?25l/home/[33muser[m/.ssh[50;174H31[4;31H[?12l[?25h[?25l/[50;175H2[4;32H[?12l[?25h[?25lk[50;175H3[4;33H[?12l[?25h[?25ln[50;175H4[4;34H[?12l[?25h[?25li[50;175H5[4;35H[?12l[?25h[?25lf[50;175H6[4;36H[?12l[?25h[?25le[50;175H7[4;37H[?12l[?25h[?25l.[50;175H8[4;38H[?12l[?25h[?25lp[50;175H9[4;39H[?12l[?25h[?25l[4;32H[31mknife.pe[m[50;174H40[4;40H[?12l[?25h[?25l[31mm[m[50;175H1[4;41H[?12l[?25h[50;1H[K[4;40H[?25l[50;172H4,40[10CAll[4;40H[?12l[?25h[?25l[50;172H[K[50;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h
+[?25l"config" 4L, 115C written
+
+
+[?1l>[?12l[?25h[?1049l[user@bhargav4562 .ssh]$ 
+[user@bhargav4562 .ssh]$ knife-ec2 --version
+-bash: knife-ec2: command not found
+[user@bhargav4562 .ssh]$ cd che[K[K[K[K[K[Kcd ~
+[user@bhargav4562 ~]$ cd chef-repo/.chef/knife.rb [K
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P chef-repo/.chef/knife.rb
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cv chef-repo/.chef/knife.rb
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci chef-repo/.chef/knife.rbm chef-repo/.chef/knife.rb
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;50r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[50;1H"chef-repo/.chef/knife.rb" 9L, 441C[>c[1;1H[34m# See https://docs.getchef.com/config_rb_knife.html for more information on knife configuration options[m
+
+current_dir = [32mFile[m.dirname([31m__FILE__[m)
+log_level[16C[31m:info[m
+log_location[13C[36mSTDOUT[m
+node_name[16C[35m"[m[31mbhargav[m[35m"[m
+client_key[15C[35m"#{[mcurrent_dir[35m}[m[31m/bhargav.pem[m[35m"[m
+chef_server_url[10C[35m"[m[31mhttps://bhargav4563.mylabserver.com/organizations/linuxacademy[m[35m"[m
+cookbook_path[12C[[35m"#{[mcurrent_dir[35m}[m[31m/../cookbooks[m[35m"[m]
+[1m[34m~                                                                                                                                                                                            [11;1H~                                                                                                                                                                                            [12;1H~                                                                                                                                                                                            [13;1H~                                                                                                                                                                                            [14;1H~                                                                                                                                                                                            [15;1H~                                                                                                                                                                                            [16;1H~                                                                                                                                                                                            [17;1H~                                                                                                                                                                                            [18;1H~                                                                                                                                                                                            [19;1H~                                                                                                                                                                                            [20;1H~                                                                                                                                                                                            [21;1H~                                                                                                                                                                                            [22;1H~                                                                                                                                                                                            [23;1H~                                                                                                                                                                                            [24;1H~                                                                                                                                                                                            [25;1H~                                                                                                                                                                                            [26;1H~                                                                                                                                                                                            [27;1H~                                                                                                                                                                                            [28;1H~                                                                                                                                                                                            [29;1H~                                                                                                                                                                                            [30;1H~                                                                                                                                                                                            [31;1H~                                                                                                                                                                                            [32;1H~                                                                                                                                                                                            [33;1H~                                                                                                                                                                                            [34;1H~                                                                                                                                                                                            [35;1H~                                                                                                                                                                                            [36;1H~                                                                                                                                                                                            [37;1H~                                                                                                                                                                                            [38;1H~                                                                                                                                                                                            [39;1H~                                                                                                                                                                                            [40;1H~                                                                                                                                                                                            [41;1H~                                                                                                                                                                                            [42;1H~                                                                                                                                                                                            [43;1H~                                                                                                                                                                                            [44;1H~                                                                                                                                                                                            [45;1H~                                                                                                                                                                                            [46;1H~                                                                                                                                                                                            [47;1H~                                                                                                                                                                                            [48;1H~                                                                                                                                                                                            [49;1H~                                                                                                                                                                                            [m[50;172H1,1[11CAll[1;1H[?12l[?25h[?25l[50;172H2,0-1[2;1H[?12l[?25h[?25l[50;172H3,1  [3;1H[?12l[?25h[?25l[50;172H4[4;1H[?12l[?25h[?25l[50;172H5[5;1H[?12l[?25h[?25l[50;172H6[6;1H[?12l[?25h[?25l[50;172H7[7;1H[?12l[?25h[?25l[50;172H8[8;1H[?12l[?25h[?25l[50;172H9[9;1H[?12l[?25h[?25l[50;1H[1m-- INSERT --[m[50;13H[K[50;172H9,1[11CAll[9;1H[?12l[?25h[?25l[25C[46m[[29C][m[50;172H[K[50;172H9,57[10CAll[9;57H[?12l[?25h[?25l[10;1H[K[9;26H[[29C][50;172H10,1[10;1H[?12l[?25h[?25l[11;1H[K[50;173H1[11;1H[?12l[?25h[?25lknife[[31m:aws_access_key_id[m] = [35m"[m[31m...[m[35m"[m
+knife[[31m:aws_secret_access_key[m] = [35m"[m[31m.........[m[35m"[m[12;44H[K[50;173H2,44[12;44H[?12l[?25h[?25l[50;176H3[12;43H[?12l[?25h[?25l[35m"[m[12;43H[K[50;176H2[12;42H[?12l[?25h[?25l[35m"[m[12;42H[K[50;176H1[12;41H[?12l[?25h[?25l[35m"[m[12;41H[K[50;176H0[12;40H[?12l[?25h[?25l[35m"[m[12;40H[K[50;175H39[12;39H[?12l[?25h[?25l[35m"[m[12;39H[K[50;176H8[12;38H[?12l[?25h[?25l[35m"[m[12;38H[K[50;176H7[12;37H[?12l[?25h[?25l[35m"[m[12;37H[K[50;176H6[12;36H[?12l[?25h[?25l[35m"[m[12;36H[K[50;176H5[12;35H[?12l[?25h[?25l[35m"[m[12;35H[K[50;176H4[12;34H[?12l[?25h[?25l[50;173H1[11;34H[?12l[?25h[?25l[50;176H3[11;33H[?12l[?25h[?25l[35m"[m[11;33H[K[50;176H2[11;32H[?12l[?25h[?25l[35m"[m[11;32H[K[50;176H1[11;31H[?12l[?25h[?25l[35m"[m[11;31H[K[50;176H0[11;30H[?12l[?25h[?25l[31mAKIAJMUFVUZROJCNDZKA[m[35m"[m[50;175H5[11;50H[?12l[?25h[?25l[50;173H2,35[12;35H[?12l[?25h[?25l[50;176H4[12;34H[?12l[?25h[?25l[31mU51H/fO6UXRECZNnFEXg2ymfgsPzdCyLHHZkLhPz[m[35m"[m[50;175H7[12;74H[?12l[?25h[50;1H[K[12;73H[?25l[50;172H12,73[9CAll[12;73H[?12l[?25h[?25l[50;172H[K[50;1H:[?12l[?25hW[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h
+[?25l[1m[37m[41mE492: Not an editor command: Wq![m[139C12,73[9CAll[12;73H[?12l[?25h[?25l[50;1H[K[50;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h
+[?25l"chef-repo/.chef/knife.rb" 12L, 568C written
+
+
+[?1l>[?12l[?25h[?1049l[user@bhargav4562 ~]$ ami-dd3442b2kami-dd3442b2nami-dd3442b2iami-dd3442b2fami-dd3442b2eami-dd3442b2 ami-dd3442b2eami-dd3442b2cami-dd3442b22ami-dd3442b2 ami-dd3442b2sami-dd3442b2eami-dd3442b2rami-dd3442b2vami-dd3442b2eami-dd3442b2rami-dd3442b2 ami-dd3442b2cami-dd3442b2rami-dd3442b2eami-dd3442b2[Cami-dd3442b2tami-dd3442b2eami-dd3442b2 ami-dd3442b2-ami-dd3442b2rami-dd3442b2 ami-dd3442b2"ami-dd3442b2rami-dd3442b2iami-dd3442b2[1Pami-dd3442b2oami-dd3442b2lami-dd3442b2eami-dd3442b2[ami-dd3442b2dami-dd3442b2[Cami-dd3442b2[Cami-dd3442b2[1Pmi-dd3442b2tami-dd3442b2[Cami-dd3442b2bami-dd3442b2[Cami-dd3442b2sami-dd3442b2eami-dd3442b2]ami-dd3442b2"ami-dd3442b2 ami-dd3442b2-ami-dd3442b2Iami-dd3442b2 ami-dd3442b2[C[C[C[C[C[C[C[C[C[C[C[C -f t2.micro -S knife -i ~.[K/ssh/knife.pem^C
+[user@bhargav4562 ~]$ cat /ssh/knife.pem
+cat: /ssh/knife.pem: No such file or directory
+[user@bhargav4562 ~]$ cat /ssh/knife.pem[C~/ssh/knife.pem
+cat: /home/user/ssh/knife.pem: No such file or directory
+[user@bhargav4562 ~]$ cd ~at ~/ssh/knife.pem[C[Csh/knife.pem
+cat: /home/user/sssh/knife.pem: No such file or directory
+[user@bhargav4562 ~]$ cat ~/sssh/knife.pem[C[1Ph/knife.pem.ssh/knife.pem
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEAg8lj533ackv6XWCezUx1qpx2kvtW3frt+jcXwfLhBnvErfkjs58UP1tlMc9g
+gkoqYllWus3f3ZqolvfX4EYKqCpwSvXgYlzjY17Y16NDEQWbIJmdrvwXP+vGmSzdDa7jV2py+1Yh
+apK4rHqZQNJtGOXkTHGHnbfChbRDHBVQ1ndWUa+AZxF9OIyCLE+Z8s+siE9LQ4H2F/0iEauMPJ+J
+0i0Ki+35gNaKF7nkvqwHhGSfPIrKpVk6jX/CR7MXcjb2Qf68Dar/+fXg1PazKE42uVwbGYzzMI1M
+AD0om0K6XGYptxDjnBFwfL7s8UeDHhFa9xwBL3kTjxjSWtubZfJoTwIDAQABAoIBAF3tCiQyIZ/2
+oMEunN/rT63CiAwn0HizYCtGWstjhJfvXHU2LQjXJ0IkrJH8oGcb3utrixHmq1gw41l92UFCClRi
+stfqN/tDAtmO/vNpq+IU4cQxWB4gE53+N/Rx8jbPX76s4rhZYcWoPrDHTDTUBOeK6dTF0YdKMfzD
+RlVcp9nB89KRMjjtHl1YhWeokgXSaKdsd4Mf8iVoavGke0biNU4OK07B8OhMKDvnBsvFRFXFPlG1
+nFpRugh3pU5+0t21JmJ8Ii28pBj5u3ar1TQgZ8P7VFSg6lfgzWU9Si7F40Ff9vbsH1Du41ejmpih
++DPOKpVeERWQYG7OEhZS6UKUldECgYEA7NfgAjt+6nqMJpQbWzy2tgqLPap44aIVOOfgdy9iXRe+
+ZPoRqPxZqVppVTVORHNoKzXqZqJof+PWTjWW4u+M8PnzlUFIeRu/QSglrwzxeV7olhqeUAN77jU6
+hIOTKL4xyVYAYn3dn/bsz/f/NYUaiqrh8RdK8uYUYJ/9RivAPicCgYEAjnIxMv7kRH8fGFx91McC
+O0q9TRr7OoW7L54sraIyiRrO+ARYskKBOggMdWk3Q8EE2WdHoTRQ4DoILD6tycDreJ1cBCqRIs7m
+r0gxowE6DBI0HdfPLZfkZp9MMhqL32H/V8wD5FGxXxGH2QtMzb/dSaeokZAFAtVBUcfRyi8FhZkC
+gYEAhrCFrf9Tv9kNVusnW419gq0gXmNR908Lrp7/YghKchKMrjQgUu+ftdW6zUBRUFApT1mMAe4e
+a4yQVU3YjxoYFvqucZT8uBL1gwJn29MKiDFXJ/XfTjWNBvyyWKXSzHrNKWiFM33MyanNJsAsHK2j
+WHSxpT/P2a7Kq+CQUpWS8EUCgYEAg1kasspElECf3KfUw7IqBaBaQ9IgXItZ2oPA8O7CKJiWxi3D
+18PpQyiOzGkTs581KH7KlwQVm10HkjzNpV8GAfcgFRtnLzCXmIM6efM0olLaybXo7ULFMjerW/wM
+hBPqDvwpjowhwOb6XBHGZWaI11UI5AhoBn+8NnvJn+SR8+kCgYEAv+fVf3Ahu1Sx9oB1zG7mMRDy
+VUuMqjMLGqMqv52TLJHhwYm8jpsRXMSIJOtKuSuTE7gl7gA7+x8pDldJLu/AkvykcCYKlyZ+edzb
+1S1i1iInC8yifZomziLEbDlySzui6b6ipgTeSmexZ7Rx+T5f4mkERtinyUW7txcSYOK3G+g=
+-----END RSA PRIVATE KEY-----
+[user@bhargav4562 ~]$ cat ~/.ssh/knife.pem[Kknife ec2 server create -r "role[database]" -I ami-dd3442b2 -f t2.micro -S knife -i ~/ssh/knife.pem --ssh-user ubuntu --region eu-west-1 -Z eu-west-1a
+WARNING: No knife configuration file found
+[31m[1mERROR:[0m You did not provide a valid 'AWS Access Key Id' value.
+[31m[1mERROR:[0m You did not provide a valid 'AWS Secret Access Key' value.
+[user@bhargav4562 ~]$ cd chef-repo/
+[user@bhargav4562 chef-repo]$ cd chef-repo/knife ec2 server create -r "role[database]" -I ami-dd3442b2 -f t2.micro -S knife -i ~/ssh/knife.pem --ssh-user ubuntu --region eu-west-1 -Z eu-west-1a
+[31m[1mERROR:[0m You have not provided a valid image (AMI) value.
+[user@bhargav4562 chef-repo]$ knife ec2 server create -r "role[database]" -I ami-dd3442b2 -f t2.micro -S knife -i ~/ssh/knife.pem --ssh-user ubuntu --region eu-west-1 -Z eu-west-1a[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@a[1@m[1@i[1@-[1@1[1@9[1@f[1@7[1@8[1@0[1@7[1@6
+[31m[1mERROR:[0m You have not provided a valid image (AMI) value.
+[user@bhargav4562 chef-repo]$ knife ec2 server create -r "role[database]" -I ami-19f78076 -f t2.micro -S knife -i ~/ssh/knife.pem --ssh-user ubuntu --region eu-west-1 -Z eu-west-1a[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@a[1@p[1@-[1@s[1@o[1@u[1@t[1@h[1@-[1@1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ka[K[K[K[K[K[K[K[K[K[Kap-south-1a
+[31m[1mERROR:[0m The key pair 'knife' does not exist
+[user@bhargav4562 chef-repo]$ ls
+[0m[01;34mcookbooks[0m  README.md  [01;34mroles[0m
+[user@bhargav4562 chef-repo]$ cd ~[2Plsknife ec2 server create -r "role[database]" -I ami-19f78076 -f t2.micro -S knife -i ~/ssh/knife.pem --ssh-user ubuntu --region ap-south-1 -Z ap-south-1a[C[1@.
+[31m[1mERROR:[0m The key pair 'knife' does not exist
+[user@bhargav4562 chef-repo]$ vim [K[K[K[Kcd [K[K[Kmv ~/.ssh/knife.pem ~/.ssh/LinuxKey.pem
+[user@bhargav4562 chef-repo]$ mv ~/.ssh/knife.pem ~/.ssh/LinuxKey.pem
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cknife ec2 server create -r "role[database]" -I ami-19f78076 -f t2.micro -S knife -i ~/.ssh/knife.pem --ssh-user ubuntu --region ap-south-1 -Z ap-south-1a[C[C[C[1P[1P[1P[1P[1P[1@L[1@i[1@n[1@u[1@x[1@K[1@e[1@y[1P[1P[1P[1P[1P[1@L[1@i[1@n[1@u[1@x[1@K[1@ey -i ~/.ssh/LinuxKey.pem --ssh-user ubuntu --region ap-south-1 -Z ap-south-1a [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ka
+[36mInstance ID[0m: i-0e9d9a5c4448b0679
+[36mFlavor[0m: t2.micro
+[36mImage[0m: ami-19f78076
+[36mRegion[0m: ap-south-1
+[36mAvailability Zone[0m: ap-south-1a
+[36mSecurity Groups[0m: default
+[36mTags[0m: Name: i-0e9d9a5c4448b0679
+[36mSSH Key[0m: LinuxKey
+
+[35mWaiting for EC2 to create the instance[0m.....
+[36mPublic DNS Name[0m: ec2-35-154-99-20.ap-south-1.compute.amazonaws.com
+[36mPublic IP Address[0m: 35.154.99.20
+[36mPrivate DNS Name[0m: ip-172-31-23-23.ap-south-1.compute.internal
+[36mPrivate IP Address[0m: 172.31.23.23
+
+[35mWaiting for sshd access to become available[0m
+SSH Target Address: ec2-35-154-99-20.ap-south-1.compute.amazonaws.com(dns_name)
+.....  .done
+
+SSH Target Address: ec2-35-154-99-20.ap-south-1.compute.amazonaws.com()
+Creating new client for i-0e9d9a5c4448b0679
+Creating new node for i-0e9d9a5c4448b0679
+Connecting to [1mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m -----> Installing Chef Omnibus (-v 12)
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m downloading https://omnitruck-direct.chef.io/chef/install.sh
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m   to file /tmp/install.sh.1384/install.sh
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m trying wget...
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m ubuntu 14.04 x86_64
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Getting information for chef stable 12 for ubuntu...
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m downloading https://omnitruck-direct.chef.io/stable/chef/metadata?v=12&p=ubuntu&pv=14.04&m=x86_64
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m   to file /tmp/install.sh.1388/metadata.txt
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m trying wget...
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m sha1	a8c749bfde759692abdd98ae1b841ad089fe5461
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m sha256	4fdabf0ae37c999795bef5e97133c1b78182129edec28c17ccf9ca6661dcc754
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m url	https://packages.chef.io/files/stable/chef/12.18.31/ubuntu/14.04/chef_12.18.31-1_amd64.deb
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m version	12.18.31
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m downloaded metadata file looks valid...
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m downloading https://packages.chef.io/files/stable/chef/12.18.31/ubuntu/14.04/chef_12.18.31-1_amd64.deb
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m   to file /tmp/install.sh.1388/chef_12.18.31-1_amd64.deb
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m trying wget...
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Comparing checksum with sha256sum...
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Installing chef 12
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m installing with dpkg...
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Selecting previously unselected package chef.
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m (Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 51204 files and directories currently installed.)
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Preparing to unpack .../chef_12.18.31-1_amd64.deb ...
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Unpacking chef (12.18.31-1) ...
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Setting up chef (12.18.31-1) ...
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Thank you for installing Chef!
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Starting the first Chef Client run...
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Starting Chef Client, version 12.18.31
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m resolving cookbooks for run list: ["postgres"]
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Synchronizing Cookbooks:
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m   - postgres (0.1.0)
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Installing Cookbook Gems:
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Compiling Cookbooks...
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Converging 3 resources
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Recipe: postgres::default
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m   * apt_package[postgresql-server] action install
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     * No candidate version available for postgresql-server
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     ================================================================================
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     Error executing action `install` on resource 'apt_package[postgresql-server]'
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     ================================================================================
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     Chef::Exceptions::Package
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     -------------------------
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     No candidate version available for postgresql-server
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     Resource Declaration:
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     ---------------------
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     # In /var/chef/cache/cookbooks/postgres/recipes/default.rb
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m       6: package 'postgresql-server' do
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m       7: 	notifies :run, 'execute[postgresql-init]', :immediately
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m       8: end
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m       9: 
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     Compiled Resource:
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     ------------------
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     # Declared in /var/chef/cache/cookbooks/postgres/recipes/default.rb:6:in `from_file'
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     apt_package("postgresql-server") do
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m       package_name "postgresql-server"
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m       action [:install]
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m       retries 0
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m       retry_delay 2
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m       default_guard_interpreter :default
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m       declared_type :package
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m       cookbook_name "postgres"
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m       recipe_name "default"
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     end
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     Platform:
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     ---------
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     x86_64-linux
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m     
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m 
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Running handlers:
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m [2017-02-15T16:31:59+00:00] ERROR: Running exception handlers
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Running handlers complete
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m [2017-02-15T16:31:59+00:00] ERROR: Exception handlers complete
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m Chef Client failed. 0 resources updated in 04 seconds
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m [2017-02-15T16:31:59+00:00] FATAL: Stacktrace dumped to /var/chef/cache/chef-stacktrace.out
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m [2017-02-15T16:31:59+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m [2017-02-15T16:31:59+00:00] ERROR: apt_package[postgresql-server] (postgres::default line 6) had an error: Chef::Exceptions::Package: No candidate version available for postgresql-server
+
+[36mec2-35-154-99-20.ap-south-1.compute.amazonaws.com[0m [2017-02-15T16:31:59+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+
+[user@bhargav4562 chef-repo]$  knife ec2 server create -r "role[database]" -I ami-19f78076 -f t2.micro -S knife -i ~/.ssh/knife.pem --ssh-user ubuntu --region ap-south-1 -Z ap-south-1a^C
+[user@bhargav4562 chef-repo]$ knife ec2 

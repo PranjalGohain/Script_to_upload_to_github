@@ -1,0 +1,29 @@
+Nokia R&D
+
+Position Description
+This "DevOps Engineer" position is a combination of Linux/Windows System Administration, Cloud Engineering (AWS, Heroku), Release Management, Configuration Management (Chef, Ansible), Reliability Engineering (Docker, Rancher), Software Systems Integration, and Software Development.
+The DevOps Engineer will be involved across the entire life cycle of the development process. They are responsible for the design and implementation of applications’ build, release, deployment, and configuration activities
+Assist with testing and deployment of applications to DEV/TEST/PROD environments.
+Develop/extend modules for automating environment deployments and managing environment configurations.
+Perform administration and engineering duties for application servers in Unix/Linux environments.
+Software Configuration Management (SCM)
+Better build automation (stateless continuous integration templates)
+Work on continuous integration build plans – making them stateless and easier to use / maintain.
+Diagnose and troubleshoot day to day issues users may experience with the build and test infrastructures.
+Software engineering tools integration
+Improve engineering infrastructure with better tooling (IDE, issue tracking, intranet, source code control, code review, etc.)
+Improve engineering productivity and efficiency from coding quality to success build
+Skills Required
+Experience Required 5-7 Years
+Experience in managing / configuring VM instances either with Linux KVM, VMware, OpenStack or cloud based instances (Google / AWS cloud).
+Able to automate processes by programming and executing in Ruby/Python/Perl/Bash.
+Experience with build/deployment automation tools such as Puppet, Chef or Ansible.
+Experience with Docker and Container Orchestration Tools like Rancher, Kubernetes, Docker Swarm etc.
+Experience with managing source code repositories, including branching and merging of code lines (Git/Github, SVN/Subversion, or Perforce)
+Experience with relational and non-relational DBs (MySQL/Oracle, MongoDB/Cassandra/Hadoop)
+Experience with Web Servers like Apache
+Experience within Linux Environments using Servers such as Redhat, Fedora, Ubuntu, Debian,SuSe, Gentoo, or CentOS
+Monitoring experience in large environment tools such as Nagios, Cacti, Splunk
+Knowledgeable about network management - configuring and maintaining routers, switches, wireless access points. Storage Management – NetApp/EMC , NAS/SAN
+Experience in Agile/scrum/DevOps practices, String interpersonal skills
+Traits Ability to challenge status quo, Willing to work Collaboratively for Team success, Be Self-motivated with drive and ownership, have a Continuous learning mindset with a Result oriented “can do” attitude

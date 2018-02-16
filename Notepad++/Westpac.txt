@@ -1,0 +1,46 @@
+
+Sitescope	192.168.70.25	Git server
+Ucmdb Probe	192.168.70.3	Workstation
+
+
+http://ausznpesva156/Operation_Orchestration.git.server
+
+http://10.33.2.218/Operation_Orchestration.git.server
+
+
+edscs-npe\bzky7x
+satyam20 
+
+edscs-npe\pzd77b
+Mother@123
+
+
+https://softwaresupport.softwaregrp.com/group/softwaresupport/search-result/-/facetsearch/document/SD01850051
+https://softwaresupport.softwaregrp.com/group/softwaresupport/search-result?keyword=#
+
+https://github.hpe.com/oo-rnd/oo-hp-solutions/tree/authType_input
+
+#:KEy^$t5u",
+
+9wvXZDMSkAYb
+
+SQL Management 
+
+runas /user:EDSCS-NPE\dv-svc_orcasy01 "C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\Ssms.exe" 
+
+   9wvXZDMSkAYb 
+
+AULKNPECSQL012\RMDB1WBPP 
+
+Exchange details
+
+casarray01.edscs-npe.local 
+westpac.automation@edscs-npe.local 
+Balkatti, Sujit Udaykumar (Micro Focus Professional Services) 8:21 PM: 
+host                 casarray01.edscs-npe.local
+port            993
+protocol        imap
+username        edscs-npe\pp-svc_orcasy01
+mailbox         westpac.automation@edscs-npe.local
+user  : pp-svc_orcasy01 
+pass : #:KEy^$t5u", 
